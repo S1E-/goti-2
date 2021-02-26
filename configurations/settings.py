@@ -2,7 +2,7 @@
 import os
 
 TOKEN = "1306636984:AAHLxSJGshHgsS5fotUB0wGLJ_ayeTLMnWg"
-NAME = "gotib"
+NAME = "goti-2"
 PORT = int(os.environ.get('PORT', '8443'))
 WEBHOOK = True
 ## The following configuration is only needed if you setted WEBHOOK to True ##
