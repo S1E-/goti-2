@@ -33,7 +33,7 @@ def init(updater: Updater, dispatcher: Dispatcher):
     """two job queues, former runs at 11am everday and later runs in every 60 seconds"""
     #updater.job_queue.run_daily(morning_briefing, datetime.time(5,30,00, 000000) )
     updater.job_queue.run_repeating(
-        async_delivery, interval=12 * 60 * 60, first=0)  # repeats in every 15 mins
+        async_delivery, interval=15 * 60, first=0)  # repeats in every 15 mins
 
 
 async def morning_briefing(context: CallbackContext, collection, bs_result_and_admitcard, bs_jobs):
