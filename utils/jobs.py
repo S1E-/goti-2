@@ -34,8 +34,8 @@ def get_jobs(update, context, collection=None, bs_jobs=None):
     if chat_id == 321641669:
         job_interests = ('engineering-jobs', 'rajasthan-government-jobs')
     else:
-        # job_interests = ('engineering-jobs', )
-        job_interests = ('state-government-jobs', )
+        job_interests = ('engineering-jobs', )
+        # job_interests = ('state-government-jobs', )
 
     for interest in job_interests:
 
