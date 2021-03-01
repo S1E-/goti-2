@@ -13,3 +13,6 @@ WEBHOOK_OPTIONS = {
                         # making fake updates to your bot
 }
 WEBHOOK_URL = "https://{}.herokuapp.com/{}".format(NAME, WEBHOOK_OPTIONS["url_path"])
+
+# https://kaffeine.herokuapp.com/ ==>> this website ping our app in every half hour and therefore it never let is slepp
+# it above when asked when to sleep put 5:30pm this will let our app sleep between 11pm to 5pm IST.
